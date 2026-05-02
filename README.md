@@ -234,4 +234,4 @@ The model should **not** be used as a standalone diagnostic tool in its current 
 
 The gallery below shows the 16 most vulnerable images in the test set — those fooled at the smallest L∞ perturbation by either FGSM or PGD. Left: original scan with true prediction. Right: adversarial scan with the model's changed prediction. The images are visually indistinguishable.
 
-![Adversarial Gallery](results/gallery.png)
+![Adversarial Gallery](assets/gallery.png)
