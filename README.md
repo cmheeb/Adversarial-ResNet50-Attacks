@@ -14,6 +14,7 @@ A research workbench for generating and analysing adversarial examples against a
 - [Search Modes](#search-modes)
 - [Technical Report](#technical-report)
 - [Gallery](#gallery)
+- [Citation](#citation)
 
 ---
 
@@ -235,3 +236,23 @@ The model should **not** be used as a standalone diagnostic tool in its current 
 The gallery below shows the 16 most vulnerable images in the test set — those fooled at the smallest L∞ perturbation by either FGSM or PGD. Left: original scan with true prediction. Right: adversarial scan with the model's changed prediction. The images are visually indistinguishable.
 
 ![Adversarial Gallery](assets/gallery.png)
+
+---
+
+## Citation
+
+The dataset used in this project is sourced from the following Kaggle notebook:
+
+> Mohamed, Y. (2024). *Brain Tumor MRI — Accuracy 99%*. Kaggle.
+> Retrieved from https://www.kaggle.com/code/yousefmohamed20/brain-tumor-mri-accuracy-99/notebook
+
+**BibTeX**
+```bibtex
+@misc{mohamed2024braintumormri,
+  author    = {Mohamed, Yousef},
+  title     = {Brain Tumor MRI — Accuracy 99\%},
+  year      = {2024},
+  publisher = {Kaggle},
+  url       = {https://www.kaggle.com/code/yousefmohamed20/brain-tumor-mri-accuracy-99/notebook}
+}
+```
